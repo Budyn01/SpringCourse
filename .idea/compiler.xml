@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bean_factory" />
+        <module name="external_properties" />
+        <module name="recipe_project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bean_factory" target="1.8" />
+      <module name="external_properties" target="1.8" />
+      <module name="recipe_project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

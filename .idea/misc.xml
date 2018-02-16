@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/bean_factory/pom.xml" />
+        <option value="$PROJECT_DIR$/external_properties/pom.xml" />
+        <option value="$PROJECT_DIR$/recipe_project/pom.xml" />
       </list>
     </option>
   </component>

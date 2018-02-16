@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bean_factory/bean_factory.iml" filepath="$PROJECT_DIR$/bean_factory/bean_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/external_properties/external_properties.iml" filepath="$PROJECT_DIR$/external_properties/external_properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recipe_project/recipe_project.iml" filepath="$PROJECT_DIR$/recipe_project/recipe_project.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,4 @@
+Go to Registy... by CTRL+SHIFT+A
+Check compiler.automake.allow.when.app.running
+Project setting/compiler
+Check build project automitically
