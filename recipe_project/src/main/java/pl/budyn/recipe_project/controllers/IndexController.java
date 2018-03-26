@@ -4,9 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pl.budyn.recipe_project.model.UnitOfMeasure;
-import pl.budyn.recipe_project.repositories.CategoryRepository;
-import pl.budyn.recipe_project.repositories.UnitOfMeasureRepository;
 import pl.budyn.recipe_project.services.RecipeService;
 
 /**
@@ -15,7 +12,6 @@ import pl.budyn.recipe_project.services.RecipeService;
 @Slf4j
 @Controller
 public class IndexController {
-
     private final RecipeService recipeService;
 
     public IndexController(RecipeService recipeService) {

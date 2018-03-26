@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+<!--/*@thymesVar id="recipe" type="pl.budyn.recipe_project.model.Recipe"*/-->
+<p>Name: <span th:text="${recipe.description}">Pasta with tomato</span></p>
+<p>Preparation time: <span th:text="${recipe.prepTime}">120</span>min</p>
+<p>Servings: <span th:text="${recipe.servings}">5</span></p>
+<a href="/"><button>Back</button></a>
+</body>
+</html>

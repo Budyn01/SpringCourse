@@ -1,14 +1,17 @@
 package pl.budyn.recipe_project.model;
 
-import lombok.*;
-
 import javax.persistence.*;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+
+import lombok.*;
+import pl.budyn.recipe_project.model.Ingredient;
 
 /**
  * Created by Budyn on 13.02.2018.
  */
+
 @Data
 @Entity
 public class Recipe {
@@ -44,14 +47,17 @@ public class Recipe {
             inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<Category> categories = new HashSet<>();
 
-    public void setNotes(Notes notes) {
-        this.notes = notes;
-        notes.setRecipe(this);
+    public Recipe() {
     }
 
     public Recipe addIngredient(Ingredient ingredient) {
         ingredient.setRecipe(this);
         this.ingredients.add(ingredient);
         return this;
+    }
+
+
+    protected boolean canEqual(Object other) {
+        return other instanceof Recipe;
     }
 }

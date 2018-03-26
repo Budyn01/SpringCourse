@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bean_factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/external_properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/marta_2_kocham_bardzo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/recipe_project" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

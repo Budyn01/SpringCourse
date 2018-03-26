@@ -1,5 +1,6 @@
 package pl.budyn.recipe_project.services;
 
+import pl.budyn.recipe_project.commands.RecipeCommand;
 import pl.budyn.recipe_project.model.Recipe;
 
 import java.util.Set;
@@ -9,4 +10,7 @@ import java.util.Set;
  */
 public interface RecipeService {
     Set<Recipe> getRecipes();
+    Recipe findById(Long id);
+    RecipeCommand saveRecipeCommand(RecipeCommand command);
+    void deleteById(Long id);
 }
