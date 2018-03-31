@@ -13,7 +13,12 @@ import pl.budyn.recipe_project.model.Ingredient;
 @Component
 public class IngredientCommandToIngredient implements Converter<IngredientCommand, Ingredient> {
 
-    @Synchronized
+    private final UnitOfMeasureCommandToUnitOfMeasure uomConverter;
+
+    public IngredientCommandToIngredient(UnitOfMeasureCommandToUnitOfMeasure uomConverter) {
+        this.uomConverter = uomConverter;
+    }
+
     @Nullable
     @Override
     public Ingredient convert(IngredientCommand source) {
@@ -24,7 +29,7 @@ public class IngredientCommandToIngredient implements Converter<IngredientComman
         ingredient.setId(source.getId());
         ingredient.setAmount(source.getAmount());
         ingredient.setDescription(source.getDescription());
-        ingredient.setUom(source.getUnitOfMeasure());
+        ingredient.setUom(uomConverter.convert(source.getUom()));
         return ingredient;
     }
 }
