@@ -12,6 +12,7 @@ import pl.budyn.recipe_project.services.RecipeService;
 @Slf4j
 @Controller
 public class IndexController {
+
     private final RecipeService recipeService;
 
     public IndexController(RecipeService recipeService) {
