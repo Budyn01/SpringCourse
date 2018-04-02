@@ -37,13 +37,13 @@ public class ImageController {
         return "recipe/imageuploadform";
     }
 
-    @PostMapping
+    @PostMapping("recipe/{id}/image")
     public String handleImagePost(@PathVariable String id, @RequestParam("imagefile")MultipartFile file) {
         imageService.saveImageFile(Long.valueOf(id), file);
         return "redirect:/recipe/" + id + "/show";
     }
 
-    @GetMapping
+    @GetMapping("recipe/{id}/recipeimage")
     public void renderImageFromDb(@PathVariable String id, HttpServletResponse response) throws IOException {
         RecipeCommand recipeCommand = recipeService.findCommandById(Long.valueOf(id));
 
