@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/external_properties/external_properties.iml" filepath="$PROJECT_DIR$/external_properties/external_properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/recipe_project/recipe_project.iml" filepath="$PROJECT_DIR$/recipe_project/recipe_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/some_examples/some_examples.iml" filepath="$PROJECT_DIR$/some_examples/some_examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>

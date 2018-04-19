@@ -8,14 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import pl.budyn.recipe_project.commands.IngredientCommand;
 import pl.budyn.recipe_project.commands.RecipeCommand;
 import pl.budyn.recipe_project.commands.UnitOfMeasureCommand;
-import pl.budyn.recipe_project.model.UnitOfMeasure;
 import pl.budyn.recipe_project.services.IngredientService;
 import pl.budyn.recipe_project.services.RecipeService;
 import pl.budyn.recipe_project.services.UnitOfMeasureService;
 
-/**
- * Created by Budyn on 31.03.2018.
- */
 @Slf4j
 @Controller
 public class IngredientController {
@@ -56,7 +52,6 @@ public class IngredientController {
         model.addAttribute("uomList", unitOfMeasureService.listAllUoms());
 
         return "recipe/ingredient/ingredientform";
-
     }
 
 

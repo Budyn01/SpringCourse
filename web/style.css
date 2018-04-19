@@ -1,0 +1,68 @@
+p > img {
+    float: right;
+}
+
+.box {
+    border: 1px solid black;
+    Width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.big-box {
+    border: 1px solid black;
+    Width: 500px;
+    height: 500px;
+    margin: 10px;
+    position:relative;
+}
+
+.abs {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.fix {
+    position: fixed;
+    bottom: 25px;
+    right: 150px;
+}
+.rel {
+    position: relative;
+    left: 125px;
+}
+.sta {
+    position: static;
+    bottom: 500px;
+    right: 500px;
+}
+
+.clearLeft {
+    Clear: left;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.box1 {
+    position:relative;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.leftColumn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+
+.rightColumn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}

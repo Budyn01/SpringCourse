@@ -25,7 +25,7 @@ public class Person implements Cloneable {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "reflection.Person{" +
                 "name='" + name + '\'' +
                 '}';
     }
