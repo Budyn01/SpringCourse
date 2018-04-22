@@ -35,8 +35,12 @@
 	Elements of input arrays can be modified.
  */
 
+import org.junit.Test;
+
+import java.io.Console;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -49,6 +53,45 @@ public class PermCheck {
 
         return 0;
     }
+
+    @Test
+    public void tes() throws InterruptedException {
+
+        Runtime runtime = Runtime.getRuntime();
+
+        System.out.println(runtime.freeMemory());
+        List<PermCheck> list = new ArrayList<>();
+        for (int i = 0; i < 10000; i++) {
+            list.add(new PermCheck());
+        }
+        System.out.println(runtime.freeMemory());
+
+        Thread.sleep(10000);
+
+    }
+
+    @Test
+    public void printErr() {
+        System.out.println("simple message");
+        System.err.println("error message");
+
+    }
+
+    @Test
+    public void consoleTest() {
+        Console c = System.console();
+        System.out.println("Eneter your name: ");
+        String n = c.readLine();
+        System.out.println("Welcome " + n);
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("Deleting object");
+        super.finalize();
+    }
+
+
 
 
 }

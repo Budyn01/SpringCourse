@@ -75,4 +75,11 @@ function mergeSortedArray(a, b) {
     }
 }
 
+(
+    function() {
+        console.log("siema");
+    }
+)();
+
+
 

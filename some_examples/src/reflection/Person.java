@@ -14,5 +14,9 @@ public class Person implements Debuggable {
         this.s = s;
     }
 
+    public String es() {
+        return null;
+    }
+
 
 }
