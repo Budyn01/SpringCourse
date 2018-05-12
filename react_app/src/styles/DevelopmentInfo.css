@@ -1,0 +1,13 @@
+.developmentInfo {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+
+}
+.developmentInfo > p {
+    margin: 0;
+}
+
+.developmentInfoContainer {
+    height: inherit;
+}

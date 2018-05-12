@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/angular/angular.iml" filepath="$PROJECT_DIR$/angular/angular.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean_factory/bean_factory.iml" filepath="$PROJECT_DIR$/bean_factory/bean_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/external_properties/external_properties.iml" filepath="$PROJECT_DIR$/external_properties/external_properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firebase_functions/firebase_functions.iml" filepath="$PROJECT_DIR$/firebase_functions/firebase_functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firebase_hosting/firebase_hosting.iml" filepath="$PROJECT_DIR$/firebase_hosting/firebase_hosting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react_app/react_app.iml" filepath="$PROJECT_DIR$/react_app/react_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/recipe_project/recipe_project.iml" filepath="$PROJECT_DIR$/recipe_project/recipe_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/some_examples/some_examples.iml" filepath="$PROJECT_DIR$/some_examples/some_examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />

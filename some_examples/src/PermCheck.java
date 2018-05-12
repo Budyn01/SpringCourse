@@ -85,13 +85,4 @@ public class PermCheck {
         System.out.println("Welcome " + n);
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        System.out.println("Deleting object");
-        super.finalize();
-    }
-
-
-
-
 }
